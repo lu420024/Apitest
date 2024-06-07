@@ -1,0 +1,57 @@
+hero:
+ - name: 安其拉
+   word: 火焰是我最喜欢的玩具
+   Hp: 445.5
+
+hero1: { name: 安其拉, word: 火焰是我最喜欢的玩具, Hp: 445.5}
+heroes_name:
+  - 安其拉
+  - 黄忠
+  - 小乔
+
+heroes:
+  - name: 黄忠
+    word: 周日被我射熄火了
+    Hp: 440
+
+heroes_name_list:
+  -
+    - 安其拉
+    - 黄忠
+    - 小乔
+
+
+test:
+  name: login_case1
+  request:
+    url: http://x.x.x.x.x.com
+    method: post
+    headers:
+      Content-Type: application/json
+    json:
+      username: test
+      password: 123456
+
+heroes_name_list1:
+  - - 黄忠
+    - 周日被我射熄火了
+  - - 安其拉
+    - 火焰是我最喜欢的玩具
+
+
+mobile_belong: { shouji: 15032341111, appkey: 0c818521d38759e1}
+
+mobile_belong_post:
+  - [15032341111, 0c818521d38759e1 ]
+
+mobile_belong_get:
+  - [15032341111, 0c818521d38759e1 ]
+  - [13032341234, 0c818521d38759e1 ]
+
+person:
+  - name: 上海-${random_name()}-测试组
+    age: ${age()}
+    sex: 男
+  - name: 上海-${random_name()}-测试组
+    age: ${age()}
+    sex: 男
