@@ -5,8 +5,12 @@ from core.ApiService import ApiService
 from utils.YamlUtil import YamlUtils
 
 
-@allure.feature('用户中心模块')
-class TestUser:
-    @pytest.mark.parametrize("data", YamlUtils().extract_case('user_canter.yaml', 'user_long_new'))
-    def test_user_new(self, data):
-        ApiService().handle_case(data)
+@allure.feature('用户订单模块')
+class TestOrder:
+    @pytest.mark.parametrize("data", YamlUtils().extract_case('order_center.yaml', 'order_list'))
+    def test_order_list(self, data, login_token):
+        ApiService().handle_case(data, login_token)
+
+    @pytest.mark.parametrize("data", YamlUtils().extract_case('order_center.yaml', 'order_detail'))
+    def test_order_detail(self, data, login_token):
+        ApiService().handle_case(data, login_token)

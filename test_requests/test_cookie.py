@@ -18,9 +18,8 @@ import requests
 
 url = "http://sellshop.5istudy.online/sell/seller/order/list"
 headers = {
-    "Cookie":"token=9af6ff75-0cab-4590-83ea-6c99fd076066"
-} #带有cookie的请求
+    "Cookie": "token=9af6ff75-0cab-4590-83ea-6c99fd076066"
+}  # 带有cookie的请求
 
 res = requests.get(url=url, headers=headers)
 print(res.text)
-

@@ -32,14 +32,18 @@ class MysqlDb:
         logger.info(f'执行sql:{sql}')
         self.cur.execute(sql)
         # 获取数据
-        return self.cur.fetchone()
+        result = self.cur.fetchone()
+        logger.info(f'sql查询结果:{result}')
+        return result
 
     # 查询多条
     def select_db_all(self, sql):
         logger.info(f'执行sql:{sql}')
         self.cur.execute(sql)
         # 获取数据
-        return self.cur.fetchall()
+        result = self.cur.fetchall()
+        logger.info(f'sql查询结果:{result}')
+        return result
 
     def execute_db(self, sql):
 
@@ -56,5 +60,5 @@ db = MysqlDb()
 
 if __name__ == '__main__':
 
-    result = db.select_db_one('select code from users_verifycode where mobile = "13811111111" order by id desc;')
+    result = db.select_db_one('select code from users_verifycode where mobile = "15013680005" order by id desc;')
     print(result)

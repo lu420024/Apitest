@@ -15,17 +15,10 @@ class RestClient:
         self.api_root_url = api_root_url
         self.session = requests.Session()
 
-    def get(self, url, **kwargs):
-        return self.request(url, 'GET', **kwargs)
-
-    def post(self, url, **kwargs):
-        return self.request(url, 'POST', **kwargs)
-
-    def put(self, url, **kwargs):
-        return self.request(url, 'PUT', **kwargs)
-
-    def delete(self, url, **kwargs):
-        return self.request(url, 'DELETE', **kwargs)
+    def do_requests(self, url, method, **kwargs):
+        response = self.request(url, method, **kwargs).json()
+        logger.info('接口的返回内容>>> \n{}'.format(json.dumps(response, ensure_ascii=False, indent=2)))
+        return response
 
     def request(self, url, method, **kwargs):
         self.request_log(url, method, **kwargs)

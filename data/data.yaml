@@ -55,3 +55,27 @@ person:
   - name: 上海-${random_name()}-测试组
     age: ${age()}
     sex: 男
+
+json_data : { title: foo, body: bar, userID: 1 }
+
+mobile_belong_dynamic:
+  params: { shouji: 15032341111, appkey: 0c818521d38759e1}
+  title:  测试手机号归属地title-dongtai
+  story:  杭州手机号story1-dongtai
+
+test_register: { mobile: 15013680005}
+
+user_login:
+  # 手机，密码
+  - [ 15013680006, 123456 ]
+
+login_fixture:
+  mobile: 15013680006
+  password: 123456
+
+shopping_cart: { goods: 7, nums: 1 }
+
+add_message:
+  subject: 测试留言
+  message: 这是一个测试留言
+  message_type: 1

@@ -1,0 +1,27 @@
+user_long_new:
+  # 接口的基本信息
+  - request_info:
+      allure-title: 用户登陆接口
+      url: /login/
+      method: POST
+      headers:
+        Content-Type: application/json
+    case_info:
+      # 接口请求参数,params , json ,data
+      - json:
+          username: 15013680006
+          password: 123456
+        validate:
+          - contains: [$.token, 'eyJ0eX']
+          # - contains: [$.token, 'eyj0ex1']
+
+      - json:
+          username: 15013680006
+          password: 123456
+        validate:
+          - contains: [ $.token, 'eyJ0eX' ]
+          # - contains: [$.token, 'eyj0ex1']
+
+
+
+

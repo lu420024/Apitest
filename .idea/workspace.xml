@@ -1,27 +1,304 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a576cd73-59c3-4d47-a1ad-62bfaa901f95" name="更改" comment="" />
+    <list default="true" id="a576cd73-59c3-4d47-a1ad-62bfaa901f95" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/goods_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/goods_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/user_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/user_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/ApiService.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/ApiService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/ResultBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/ResultBase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/api_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/api_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/rest_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/rest_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/rest_client_new.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/rest_client_new.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/data/data.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/good_center.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/data/good_center.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/order_center.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/data/order_center.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/user_canter.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/data/user_canter.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_requests/codestudy.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_requests/codestudy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_requests/test_cookie.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_requests/test_cookie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_requests/test_douban_headers.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_requests/test_douban_headers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/goodscenter/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/goodscenter/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/goodscenter/test_goods.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/goodscenter/test_goods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/ordercenter/test_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/ordercenter/test_order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/usercenter/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/usercenter/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/usercenter/test_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/usercenter/test_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/usercenter/test_user_new.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/usercenter/test_user_new.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/AssertUtil.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/AssertUtil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/ExtractUtil.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/ExtractUtil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/YamlUtil.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/YamlUtil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/log_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/log_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/mysql_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/mysql_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/read.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/read.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/read_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/read_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/read_data_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/read_data_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/read_ini.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/read_ini.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/response_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/response_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/yaml_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/yaml_util.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Stub" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2goVPYtsxeU83EgSPPt3mv5WbQv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Docker.Dockerfile.executor": "Run",
+    "Python 测试.Python tests for codestudy.test_get_phone.executor": "Run",
+    "Python 测试.Python tests for codestudy.test_one.executor": "Run",
+    "Python 测试.Python tests for codestudy.test_post_phone.executor": "Run",
+    "Python 测试.Python tests for codestudy.test_two.executor": "Run",
+    "Python 测试.Python tests for conftest.test_func.executor": "Run",
+    "Python 测试.Python tests for conftest.test_func1.executor": "Run",
+    "Python 测试.Python tests for conftest.test_session.executor": "Run",
+    "Python 测试.Python tests for test_fixture_params.test_params.executor": "Run",
+    "Python 测试.Python tests for test_fixture_return.test_mobile.executor": "Run",
+    "Python 测试.Python tests for test_function.test_mobile.executor": "Run",
+    "Python 测试.Python tests for test_function.test_mobile_post.executor": "Run",
+    "Python 测试.Python tests for test_mobile_yaml.test_mobile.executor": "Run",
+    "Python 测试.Python tests for test_mobile_yaml.test_mobile_post.executor": "Run",
+    "Python 测试.Python tests for test_one.test_one.executor": "Run",
+    "Python 测试.Python tests for test_parametrize_01.test_parametrize.executor": "Run",
+    "Python 测试.Python tests for test_paramtrize_02.test_parametrize_02.executor": "Run",
+    "Python 测试.Python tests for test_paramtrize_03.test_parametrize_02.executor": "Run",
+    "Python 测试.Python tests for test_two.test_two.executor": "Run",
+    "Python 测试.Python tests for test_usefixtures.test_usefixture.executor": "Run",
+    "Python 测试.Python tests in codestudy.py.executor": "Run",
+    "Python 测试.Python tests in test_codestudy1.py.executor": "Run",
+    "Python 测试.Python tests in test_fixture_return.py.executor": "Run",
+    "Python 测试.Python tests in test_function.py.executor": "Run",
+    "Python 测试.Python tests in test_login1.py.executor": "Run",
+    "Python 测试.Python tests in test_mobile_yaml.py.executor": "Run",
+    "Python 测试.Python tests in test_parametrize_01.py.executor": "Run",
+    "Python 测试.Python tests in test_paramtrize_03.py.executor": "Run",
+    "Python 测试.Python tests in test_paramtrize_yaml.py.executor": "Run",
+    "Python 测试.Python 测试 (TestRule.py 内).executor": "Run",
+    "Python 测试.Python 测试 (case_optimize.py 内).executor": "Run",
+    "Python 测试.Python 测试 (read.py 内).executor": "Run",
+    "Python 测试.Python 测试 (test_529.py 内).executor": "Run",
+    "Python 测试.Python 测试 (test_class.py 内).executor": "Run",
+    "Python 测试.Python 测试 (test_exercise.py 内).executor": "Run",
+    "Python 测试.Python 测试 (test_fixture_return.py 内).executor": "Run",
+    "Python 测试.Python 测试 (test_function.py 内).executor": "Run",
+    "Python 测试.Python 测试 (test_get_params.py 内).executor": "Run",
+    "Python 测试.Python 测试 (test_goods.py 内).executor": "Run",
+    "Python 测试.Python 测试 (test_method.py 内).executor": "Run",
+    "Python 测试.Python 测试 (test_mobile.py 内).executor": "Run",
+    "Python 测试.Python 测试 (test_mobile_yaml.py 内).executor": "Run",
+    "Python 测试.Python 测试 (test_module.py 内).executor": "Run",
+    "Python 测试.Python 测试 (test_one.py 内).executor": "Run",
+    "Python 测试.Python 测试 (test_order.py 内).executor": "Run",
+    "Python 测试.Python 测试 (test_person.py 内).executor": "Run",
+    "Python 测试.Python 测试 (test_read.py 内).executor": "Run",
+    "Python 测试.Python 测试 (test_three.py 内).executor": "Run",
+    "Python 测试.Python 测试 (test_two.py 内).executor": "Run",
+    "Python 测试.Python 测试 (text_post.py 内).executor": "Run",
+    "Python 测试.TestRule.TestRule 的 Python 测试.executor": "Run",
+    "Python 测试.case_optimize.test_mobile 的 Python 测试.executor": "Run",
+    "Python 测试.case_optimize_class.TestMobile 的 Python 测试.executor": "Run",
+    "Python 测试.case_optimize_class.TestMobile.test_mobile1_dynamic 的 Python 测试.executor": "Run",
+    "Python 测试.read.test_read_data 的 Python 测试.executor": "Run",
+    "Python 测试.read.test_read_ini 的 Python 测试.executor": "Run",
+    "Python 测试.test_function.test_mobile 的 Python 测试.executor": "Run",
+    "Python 测试.test_function.test_mobile_post 的 Python 测试.executor": "Run",
+    "Python 测试.test_goods.TestGoods.test_banner 的 Python 测试.executor": "Run",
+    "Python 测试.test_goods.TestGoods.test_banner_new 的 Python 测试.executor": "Run",
+    "Python 测试.test_mobile.test_mobile 的 Python 测试.executor": "Run",
+    "Python 测试.test_mobile_yaml.test_mobile_post 的 Python 测试.executor": "Run",
+    "Python 测试.test_one.test_one 的 Python 测试.executor": "Run",
+    "Python 测试.test_order.TestOrder 的 Python 测试.executor": "Run",
+    "Python 测试.test_order.TestOrder.test_order_detail 的 Python 测试.executor": "Run",
+    "Python 测试.test_order.TestOrder.test_order_list 的 Python 测试.executor": "Run",
+    "Python 测试.test_person.test_person 的 Python 测试.executor": "Run",
+    "Python 测试.test_ship.TestUser 的 Python 测试.executor": "Run",
+    "Python 测试.test_ship.TestUser.test_userinfo 的 Python 测试.executor": "Run",
+    "Python 测试.test_ship.test_login 的 Python 测试.executor": "Run",
+    "Python 测试.test_ship.test_userinfo 的 Python 测试.executor": "Run",
+    "Python 测试.test_user.TestUser 的 Python 测试.executor": "Run",
+    "Python 测试.test_user.TestUser.test_add_message 的 Python 测试.executor": "Run",
+    "Python 测试.test_user.TestUser.test_add_message2 的 Python 测试.executor": "Run",
+    "Python 测试.test_user.TestUser.test_login 的 Python 测试.executor": "Run",
+    "Python 测试.test_user.TestUser.test_register 的 Python 测试.executor": "Debug",
+    "Python 测试.test_user.TestUser.test_shopping_cart 的 Python 测试.executor": "Run",
+    "Python 测试.test_user.TestUser.test_shopping_cart2 的 Python 测试.executor": "Run",
+    "Python 测试.test_user_new.TestUser 的 Python 测试.executor": "Run",
+    "Python 测试.test_user_new.TestUser.test_user_new 的 Python 测试.executor": "Run",
+    "Python 测试.text_post.test_post 的 Python 测试.executor": "Run",
+    "Python.ExtractUtil.executor": "Run",
+    "Python.YamlUtil.executor": "Run",
+    "Python.api.executor": "Run",
+    "Python.codestudy.executor": "Run",
+    "Python.conftest.executor": "Run",
+    "Python.log_util.executor": "Run",
+    "Python.mysql.util.executor": "Run",
+    "Python.mysql_util.executor": "Run",
+    "Python.read.executor": "Run",
+    "Python.read.ini.executor": "Run",
+    "Python.read_data.executor": "Run",
+    "Python.read_data_test.executor": "Run",
+    "Python.read_ini.executor": "Run",
+    "Python.rest_client.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.test_cookie.executor": "Run",
+    "Python.test_douban_headers.executor": "Run",
+    "Python.test_get.executor": "Debug",
+    "Python.test_get_params.executor": "Run",
+    "Python.test_post_json.executor": "Run",
+    "Python.test_post_params.executor": "Run",
+    "Python.testexercise.executor": "Run",
+    "Python.yaml_util.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/jin/Desktop/pycharmprojects/pythonProject1_laobai/testcases/ordercenter",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/testcases/ordercenter" />
+      <recent name="$PROJECT_DIR$/core" />
+      <recent name="$PROJECT_DIR$/testcases/test_case_optimize" />
+      <recent name="$PROJECT_DIR$/testcases/data" />
+      <recent name="$PROJECT_DIR$/testcases/test_parametrize" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/data/file" />
+      <recent name="$PROJECT_DIR$/config/data" />
+      <recent name="$PROJECT_DIR$/config" />
+      <recent name="$PROJECT_DIR$/testcases/test_codestudy" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.Dockerfile">
+    <configuration name="ExtractUtil" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject1_laobai" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/ExtractUtil.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="YamlUtil" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject1_laobai" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/YamlUtil.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="containerName" value="" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_order.TestOrder.test_order_detail 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject1_laobai" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases/ordercenter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_order.TestOrder.test_order_detail&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_order.TestOrder.test_order_list 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject1_laobai" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases/ordercenter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_order.TestOrder.test_order_list&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Python 测试.test_order.TestOrder.test_order_detail 的 Python 测试" />
+        <item itemvalue="Python.ExtractUtil" />
+        <item itemvalue="Python 测试.test_order.TestOrder.test_order_list 的 Python 测试" />
+        <item itemvalue="Python.YamlUtil" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -39,5 +316,47 @@
       <updated>1716363894170</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="tests">
+        <watch expression="db.execute_db(sql)" language="Python" />
+      </configuration>
+      <configuration name="PythonConfigurationType">
+        <watch expression="data[key] = str(value)[0:start]+eval(func_name)" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
